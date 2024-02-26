@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #333; /* Set the background to dark */
+    color: #f0f0f0; /* Set the text color to light */
 }
 
 header {
-    background-color: #333;
+    background-color: #222; /* Darken the header background */
     color: #fff;
     padding: 20px;
     text-align: center;
