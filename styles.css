@@ -10,8 +10,14 @@ body {
 header {
     background-color: #000; /* Set header background to black */
     color: #fff;
-    padding: 20px;
-    text-align: center;
+   height: 200px; /* Set the height of the header */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-height: 300px; /* Set the maximum height of the logo */
 }
 
 main {
