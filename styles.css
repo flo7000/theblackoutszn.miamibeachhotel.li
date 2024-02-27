@@ -52,6 +52,15 @@ main {
 }
 
 
+
+
+@media screen and (max-width: 595px) {
+    img {
+        max-height: 150px; /* Adjust the maximum height of the image */
+    }
+}
+
+
 /* Media Queries for responsiveness */
 @media screen and (min-width: 768px) {
     .button {
