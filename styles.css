@@ -66,6 +66,6 @@ body.dark-mode {
 
 @media screen and (min-width: 1024px) {
     .button {
-        width: 40%; /* Adjust button width for larger screens */
+        width: 90%; /* Adjust button width for larger screens */
     }
 }
