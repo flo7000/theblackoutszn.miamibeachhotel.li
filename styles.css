@@ -1,23 +1,23 @@
 /* Common styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #000; /* Set the background to black */
-    color: #f0f0f0; /* Set the text color to light */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    background-color: #000; 
+    color: #f0f0f0; 
+    margin: 0; 
+    padding: 0; 
 }
 
 header {
-    background-color: #000; /* Set header background to black */
+    background-color: #000; 
     color: #fff;
-   height: 200px; /* Set the height of the header */
+   height: 200px; 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 img {
-    max-height: 300px; /* Set the maximum height of the logo */
+    max-height: 270px; 
 }
 
 main {
@@ -32,51 +32,42 @@ main {
 
 .button {
     display: block;
-    width: 80%; /* Set button width to 80% of parent container */
-    max-width: 900px; /* Set maximum button width */
-    padding: 20px; /* Increase padding for larger buttons */
+    width: 80%; 
+    max-width: 900px; 
+    padding: 20px; 
     margin: 10px;
     text-align: center;
-    background-color: #555; /* Darken button background */
-    color: #fff;
+    background-color: #555; 
+    color: #000;
     text-decoration: none;
     border: none;
-    border-radius: 15px; /* Make button edges more rounded */
+    border-radius: 15px; 
     transition: background-color 0.3s;
+
+    font-size: 24px;
 }
 
 .button:hover {
-    background-color: #333; /* Darken button on hover */
+    background-color: #333; 
 }
 
-/* Dark mode styles */
-body.dark-mode {
-    background-color: #000;
-    color: #f0f0f0;
-}
-
-.dark-mode header {
-    background-color: #000;
-}
-
-.dark-mode .button {
-    background-color: #333; /* Darken button color in dark mode */
-}
 
 /* Media Queries for responsiveness */
 @media screen and (min-width: 768px) {
     .button {
-        width: 80%; /* Adjust button width for larger screens */
+        width: 80%; 
     }
 }
 
 @media screen and (min-width: 1024px) {
     .button {
-        width: 80%; /* Set fixed button width for larger screens (PCs) */
+        width: 80%; 
+        font-size: 27px;
     }
 }
 @media screen and (min-width: 2048px) {
     .button {
-        width: 75%; /* Set fixed button width for larger screens (PCs) */
+        width: 75%; 
+        font-size: 30px;
     }
 }
