@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.current-day {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.centered-text {
+    font-size: 3em;
+    color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+    .centered-text {
+        font-size: 2em; /* Adjust as needed for smaller screens */
+    }
+}
